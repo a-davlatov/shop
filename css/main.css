@@ -437,7 +437,7 @@ a {
     flex-direction: column;
     gap: 32px;
     position: absolute;
-    top: calc(100vh - 300px);
+    top: calc(100vh - 312px);
     left: 0;
     z-index: 50;
     width: 100%;
