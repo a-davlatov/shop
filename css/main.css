@@ -415,6 +415,17 @@ a {
     display: -ms-flexbox;
     display: flex;
   }
+
+  &.fixed {
+    .header__wrapper::before {
+      top: 0;
+    }
+
+    .header__inner {
+      top: calc(100vh - 300px);
+    }
+  }
+  
   .header__wrapper {
     border-radius: 15px;
   }
